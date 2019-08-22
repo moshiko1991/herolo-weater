@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+	margin: 0 auto ;
+	direction:ltr;
+	text-align: center;
+	padding: 0;
+	font-family: sans-serif;
+	background: url("./Blue-Background.png");
+	height: 100%; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+div{
+	text-align: left;
+}
+
+
+.temp{
+	font-size: 2em;
+	color: white;
+	margin: 0;
+}
+
+#searchIcon{
+	padding: 5px;
+	color: black;
+}
+
+
+#searchBox{
+	background: none;
+	border: none; 
+	padding: 4px; 
+	text-align: left; 
+	outline: none;
+}
+
+#searchBox::placeholder {
+  color: black;
+}
+
+.search{
+	background-color: rgba(255,255,255,.7);
+	opacity: 0.5;
+	display: flex;
+	margin: 20px auto;
+	border-radius: 10px;
+	width: 180px;
+	height: 30px;
+}
+
+.today{
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, .3);
+	text-align: left;
+	color: white;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width: 190px;
+	padding: 15px;
+}
+
+.todayMain{
+	padding-left: 2px;
+	font-size: 25px;
+}
+
+.cityName{
+	margin: 0px;
+	padding-left: 2px;
+	font-size: 1.5em;
+	
+}
+
+#headTemp{
+	padding-left: 1em;
+	font-size: 80px;
+	
+}
+
+
+.days {
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, .3);
+	font-size: 0.8em;
+	text-align: left;
+	color: white;
+	margin: 0 auto;
+	min-height: 215px;
+	width: 200px;
+	margin-bottom: 20px;
+	
+}
+
+.dayName{
+	padding: 10px;
+	text-align: center;
+	font-size: 2.5em;
+	margin: 5px auto;
+}
+
+#sunIcon{
+	font-size: 80px;
+	color: white;
+	}
+
+#rainIcon{
+	font-size: 80px;
+	color: white;
+}	
+
+#cloudSunIcon{
+	font-size: 80px;
+	color: white;
+}   
+
+#arrowIcon{
+	font-size: 25px;
+	color: white;
+	margin-bottom: 15px;
+}
+.icon{
+	text-align: center;
+}
+
+.weatherValue{
+	font-size: 2em;
+	margin: 0;
+}
+.weathertemp{
+	padding: 15px;
+}
+
+.arrow{
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+	body{
+		background-size: auto; 
+	}
+	.container{
+			display: flex;
+			margin: 0 auto;
+			max-width: 100%;
+		}
+
+
+	.temp{
+		font-size: 1.5em;
+		color: white;
+		margin-bottom: 0;
+	}
+
+	#searchIcon{
+		padding: 5px;
+		color: black;
+	}
+
+	#searchBox{
+		background: none;
+		border: none; 
+		padding: 4px; 
+		text-align: left; 
+	}
+
+	#searchBox::placeholder {
+	color: black;
+	}
+
+	#search{
+		background-color: rgba(255,255,255,.7);
+		opacity: 0.5;
+		display: inline-block;
+		margin-top: 15px;
+		border-radius: 10px;
+		width: 180px;
+		height: 30px;
+	}
+
+	.today{
+		border-radius: 10px;
+		background-color: rgba(255, 255, 255, .3);
+		text-align: left;
+		color: white;
+		margin: 0 auto;
+		margin-top: 10px;
+		margin-bottom: 25px;
+		width: 180px;
+		max-height: 280px;
+	}
+
+
+	.todayMain{
+		margin: 15px auto;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.cityName{
+		margin: 0px;
+		text-align: center;
+		font-size: 2em;
+		color: white;
+	}
+
+	#headTemp{
+		padding-left: 5px;
+		font-size: 1em;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		color: white;
+	}
+
+
+	.days {
+		display: flex;
+		flex-direction: column;
+		border-radius: 10px;
+		background-color: rgba(255, 255, 255, .3);
+		font-size: 1em;
+		color: white;
+		width: 15vw;
+		max-width: 200px;
+		min-width: 120px;
+	}
+
+	#sunIcon{
+		font-size: 85px;
+		color: white;		
+		}
+
+	.icon{
+		flex: 1;
+		text-align: center;
+	}	
+
+	#cloudSunIcon{
+		font-size: 85px;
+		color: white;
+	}     
+
+	#arrowIcon{
+		padding: 5px;
+		font-size: 25px;
+		color: white;
+	}
+
+	.dayName{
+		margin: 10px;
+		text-align: center;
+		font-size: 2.0vw;
+	}
+
+	.weatherValue{
+		margin-top: 5px;
+		font-size: 1.5em;
+	}
+}
